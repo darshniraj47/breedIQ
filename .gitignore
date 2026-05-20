@@ -1,0 +1,32 @@
+# Gitignore patterns
+venv/
+__pycache__/
+*.pyc
+datasets/
+data/
+models/
+*.pt
+*.pth
+*.h5
+*.ckpt
+node_modules/
+**/node_modules/
+**/venv/
+**/__pycache__/
+**/*.pth
+**/*.pt
+**/*.h5
+**/*.ckpt
+
+# Ignore raw image dataset folders
+Cattle_Resized/
+**/Cattle_Resized/
+*.zip
+*.tar.gz
+*.tgz
+
+# Ignore heavy ML artifacts and notebook outputs
+ml/artifacts/
+ml/notebooks/
+**/ml/artifacts/
+**/ml/notebooks/
