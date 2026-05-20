@@ -1,7 +1,7 @@
 function AboutPage() {
     return (
         <div className="page">
-            <h2 className="section-title">About CattleAI</h2>
+            <h2 className="section-title">About BreedIQ</h2>
             <p className="section-subtitle">
                 An AI-powered cattle breed classification system for Indian indigenous breeds.
             </p>
@@ -76,12 +76,11 @@ function AboutPage() {
                 <div className="card about-card">
                     <h3>👤 Creator</h3>
                     <p>
-                        Built by <a href="https://www.linkedin.com/in/sajit9285/" target="_blank" rel="noreferrer">
-                            Ajit Kumar Singh</a>.
+                        Built by <strong>Darshni Raj</strong>.
                     </p>
                     <p style={{ marginTop: '0.5rem' }}>
                         Source code on{' '}
-                        <a href="https://github.com/sajit9285/cattle-breed-classifier-webapp" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/darshniraj47/breedIQ" target="_blank" rel="noreferrer">
                             GitHub
                         </a>.
                     </p>
